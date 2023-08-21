@@ -1,0 +1,250 @@
+/*RESPONSIVE*/
+
+@media (min-width: 1200px) {
+	.hidden-lg{
+		display: none;
+	}
+}
+@media (min-width: 992px) {
+	.col-md-right{
+		text-align: right;
+	}
+}
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////// */
+
+@media (max-width: 1900px) {
+	/* desktop devices */
+	html{
+		font-size: 62.5%;
+	}
+
+}
+
+@media (max-width: 1200px) {
+	/* tablet devices */
+	html{
+		font-size: 40%;
+	}
+	.pb210{
+		padding-bottom: 10rem;
+	}
+	.mb210{
+		margin-bottom: 10rem;
+	}
+
+
+	#header {
+		.menu {
+			.info {
+				margin-top: 4rem;
+				p{
+					font-size: 2rem;
+					line-height: 2.5rem;
+					margin-bottom: 2rem;
+					a{
+						font-size: 2.2rem;
+					}
+				}
+				.social {
+					a {
+						img{
+							max-width: 3rem;
+						}
+					}
+				}
+			}
+		}
+	}
+
+
+	#header {
+		.top_block {
+			.burger{
+				transform: translate(-50%, -50%) scale(.6);
+			}
+		}
+	}
+
+}
+
+@media (max-width: 992px) {    
+	/* small tablet devices */
+	#about .about_numbers{
+		margin-top: 2rem;
+	}
+
+	.text_slider {
+		.slider {
+			padding-left: 0;
+			.item {
+				p{
+					font-size: 3rem;
+					line-height: 3.5rem;
+					&:last-child{
+						line-height: 4rem;
+					}
+				}
+			}
+		}
+	}
+
+	#choose_apartment {
+		.top {
+			.buttons {
+				>div{
+					margin-top: 2rem;
+				}
+				p{
+					font-size: 3rem;
+					margin-bottom: 2rem;
+				}
+				.btns {
+					a{
+						font-size: 2rem;
+						line-height: 2.5rem;
+						padding: 2rem 2.33rem;
+					}
+				}
+			}
+		}
+
+		.content {
+			.container {
+				.img_view {
+					text-align: left;
+					p,
+					a{
+						display: inline-block;
+						text-align: center;
+						font-size: 2rem;
+						padding: 2rem 3rem;
+						margin-right: 2rem;
+					}
+				}
+				.apartment_img{
+					margin-bottom: 3.5rem;
+					img{
+						margin-left: 0;
+					}
+				}
+				.apartment_info {
+					p{
+						font-size: 2rem;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width:768px) {   
+	/* mobile devices */
+	.preloader {
+		.text{
+			width: 90%;
+		}
+	}
+	.btn_white{
+		font-size: 2.5rem;
+		padding: 2rem 3rem;
+	}
+	#header {
+		.top_block {
+			.right {
+				a{
+					&.phone{
+						display: none;
+					}
+				}
+			}
+		}
+	}
+
+	#intro {
+		.intro_slider {
+			.item {
+				.container {
+					bottom: auto;
+					top: 50%;
+					transform: translate(-50%, -50%);
+					text-align: center;
+					min-width: 80%;
+					p,
+					a{
+						font-size: 2.5rem;
+					}
+					a{
+						padding: 2rem 3rem;
+					}
+				}
+			}
+		}
+	}
+
+	#about {
+		p{
+			font-size: 2.5rem;
+		}
+		.about_numbers {
+			p{
+				font-size: 2rem;
+			}
+		}
+	}
+
+	#choose_apartment {
+		.top {
+			.buttons {
+			}
+		}
+	}
+
+	#characteristics {
+		.line {
+			.article{
+				width: 33.3%;
+				padding: 0 10px;
+				&:nth-child(3){
+					display: none;
+				}
+				p{
+					font-size: 2rem;
+					word-break: break-word;
+				}
+			}
+		}
+	}
+
+	#collback {
+		p{
+			font-size: 2.5rem;
+			line-height: 1.3;
+		}
+	}
+
+	#contacts {
+		background: #f4f5f9;
+		.container {
+			.info{
+				position: relative;
+				top: auto;
+				margin: 2rem;
+				div {
+					p {
+						font-size: 2.3rem;
+						line-height: 3rem;
+						a{
+							font-size: 3rem;
+						}
+						span{
+							font-size: 1.66rem;
+							line-height: 3rem;
+						}
+					}
+				}
+			}
+		}
+	}
+}

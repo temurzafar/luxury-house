@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Купить квартиру в новостройке в Ташкенте от застройщика Luxury House</title>
+    <meta name="description" content="Хотите купить квартиру в Ташкенте? Строительная компания Luxury House предлагает купить недвижимость в новостройке.">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="css/gird.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/ui.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="preloader">
+        <div class="text">
+            <img src="img/loading_back_text.png" alt="" id="loading_back_text">
+            <div class="load">
+                <img src="img/loading_front_text.png" alt="" id="loading_front_text">
+            </div>
+        </div>
+        <script>
+            var loading_back_text = document.getElementById("loading_back_text");
+            var loading_interval = setInterval(function(){
+                if (loading_back_text.offsetWidth) {
+                    document.getElementById("loading_front_text").style.width = (loading_back_text.offsetWidth+'px');
+                    loading_back_text.style.width = (loading_back_text.offsetWidth+'px');
+                    clearInterval(loading_interval)
+                }
+            },10);
+        </script>
+        <p>Подождите идёт загрузка сайта</p>
+    </div>
+    <div id="wrapper">
+        <header id="header">
+            <div class="container">
+                <div class="top_block">
+                    <a href="#intro" class="logo page-scroll">
+                        <img src="img/logo.svg" alt="">
+                    </a>
+                    <div class="burger">
+                        <div>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <span>меню</span>
+                    </div>
+                    <div class="right">
+                        <a href="tel:+998712002722" class="phone"><span>+998 (71)</span> 200 27 22</a>
+                        <a href="#default" class="popup-trigger"><img src="img/icons/phone.svg" alt="">Заказать звонок</a>
+                    </div>
+                </div>
+                <div class="menu color_white">
+                    <div class="row">
+                        <div class="col-md-11 col-md-offset-1">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <ul>
+                                        <li><a href="#about" class="page-scroll">О комплексе</a></li>
+                                        <li><a href="#section_three" class="page-scroll">Причины выбрать жк</a></li>
+                                        <li><a href="#gallery" class="page-scroll">Галерея</a></li>
+                                        <li><a href="#choose_apartment" class="page-scroll">Подбор квартиры</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4">
+                                    <ul>
+                                        <li><a href="#characteristics" class="page-scroll">Характеристики</a></li>
+                                        <li><a href="#section_seven" class="page-scroll">Варианты покупки</a></li>
+                                        <li><a href="#building_info" class="page-scroll">Инфраструктура</a></li>
+                                        <li><a href="#contacts" class="page-scroll">Карта</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="info">
+                                        <h4 class="title">Отдел продаж</h4>
+                                        <p>г.Ташкент, Мирзо-Улугбекский район, <br>улица Темура Малика</p>
+                                        <p><a href="tel:+998712002722" class="color_white">+998 (71) 200 27 22</a></p>
+                                        <p>График работы: 9:00 -21:00 (Пн-Вс)</p>
+                                        <div class="social">
+                                            <a href="#"><img src="img/icons/facebook_white.svg" alt=""></a>
+                                            <a href="#"><img src="img/icons/instagram_white.svg" alt=""></a>
+                                            <a href="#"><img src="img/icons/telegram_white.svg" alt=""></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+        <!-- INTRO -->
+        <section id="intro" class="mb-md">
+            <div class="intro_slider">
+                <div class="item">
+                    <img src="img/intro/1.png" alt="">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-11">
+                                <h2>Квартиры от <br>4 000 000 сум</h2>
+                                <p>Территория новой жизни.</p>
+                                <a href="#default" class="popup-trigger">Выбрать квартиру</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/intro/2.png" alt="">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-11">
+                                <h2>Building LUXURY <br>house</h2>
+                                <p>Территория новой жизни.</p>
+                                <a href="#default" class="popup-trigger">Выбрать квартиру</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider_count color_white">
+                <span class="active">01</span>
+                <span class="all">&nbsp;/&nbsp;<font>02</font></span>
+            </div>
+            <div class="arrows">
+                <span class="prev">
+                    <img src="img/icons/str_left_white.svg" alt="">
+                </span>
+                <span class="next">
+                    <img src="img/icons/str_right_white.svg" alt="">
+                </span>
+            </div>
+        </section>
+
+
+        <!-- ABOUT -->
+        <section id="about" class="mb-lg">
+            <div class="container color_theme">
+                <div class="row">
+                    <div class="col-md-11 col-md-offset-1">
+                        <div class="row mb-md">
+                            <div class="col-md-6">
+                                <h2 class="section_title">О комплексе</h2>
+                            </div>
+                            <div class="col-md-6">
+                                <p>Building LUXURY house — это современный дизайнерский жилой комплекс. В его архитектуре воплощены в реальность самые смелые идеи. Это современный дизайнерский жилой комплекс. </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-3 col-xs-6">
+                                <div class="about_numbers">
+                                    <span class="num">6</span>
+                                    <p>этажный дом</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-xs-6">
+                                <div class="about_numbers">
+                                    <span class="num">10</span>
+                                    <p>видов планировок </p>
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-xs-6">
+                                <div class="about_numbers">
+                                    <span class="num">60</span>
+                                    <p>квартир</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-xs-6">
+                                <div class="about_numbers">
+                                    <span class="num">2021</span>
+                                    <p>окончание строительства</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="section_three" class="text_slider bg_grey pt-md">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-11 col-md-offset-1">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <div class="info pb-md">
+                                    <h2 class="section_title color_white">3 Причины выбрать жилой комплекс</h2>
+                                    <div class="bottom">
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <div class="arrows">
+                                                    <span class="prev">
+                                                        <img src="img/icons/str_left_white.svg" alt="">
+                                                    </span>
+                                                    <span class="next">
+                                                        <img src="img/icons/str_right_white.svg" alt="">
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <div class="slider_count color_white">
+                                                    <span class="active">01</span>
+                                                    <span class="all">&nbsp;/&nbsp;<font>02</font></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-7">
+                                <div class="slider pt-xs">
+                                    <div class="item">
+                                        <h3>Дизайн</h3>
+                                        <p>Архитектура и дизайн для ценителей прекрасного «TEMUR MALIK» — это современный дизайнерский жилой комплекс. В его архитектуре воплощены в реальность самые смелые идеи. В новом доме вас встретят:</p>
+                                        <p>—    Навесные вентилируемые фасады <br>—   Просторные светлые холлы с отделкой из экологичных материалов <br>—   Ландшафтный дизайн с дорожками для прогулок, изящными скамейками и местами для отдыха</p>
+                                    </div>
+                                    <div class="item">
+                                        <h3>Технология</h3>
+                                        <p>Технологии для максимального комфорта Каждая деталь комплекса тщательно продумана, а надежность работы всех систем многократно подтверждалась жителями уже заселенных комплексов Группы «______________».</p>
+                                        <p>—   Инженерные системы независимы и управляются с диспетчерского пункта <br>—   Скоростные лифты экономят время и обладают бесшумным ходом <br>—   Паркинг позволяет хранить автомобиль в чистоте</p>
+                                    </div>
+                                    <div class="item">
+                                        <h3>Местоположение</h3>
+                                        <p>Территория для тех, кто ценит спокойствие Благоустроенная внутренняя территория комплекса позволят вам избежать малейшего беспокойства и проводить время с удовольствием. Здесь есть все, что требуется современному человеку:</p>
+                                        <p>—   Оборудованные детские и спортивные площадки <br>—   Система охраны и видеонаблюдения <br>—   Магазины, пекарни, салоны красоты и т. д.  <br>—   Эко парк, Парк локомотив </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="gallery" class="bg_grey pt-lg pb-lg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        <div class="top">
+                            <div class="row">
+                                <div class="col-xs-8">
+                                    <h2 class="section_title color_theme">Галерея</h2>
+                                </div>
+                                <div class="col-xs-4 text_right">
+                                    <div class="slider_count color_theme">
+                                        <span class="active">01</span>
+                                        <span class="all">&nbsp;/&nbsp;<font>02</font></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider">
+                <div class="item">
+                    <img src="img/slider/1-min.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="img/slider/2-min.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="img/slider/3-min.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="img/slider/4-min.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="img/slider/5-min.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="img/slider/6-min.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="img/slider/7-min.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="img/slider/8-min.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="img/slider/9-min.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="img/slider/10-min.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="img/slider/11-min.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="img/slider/12-min.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="img/slider/13-min.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="img/slider/14-min.png" alt="">
+                </div>
+            </div>
+            <div class="arrows">
+                <span class="prev">
+                    <img src="img/icons/str_left_blue.svg" alt="">
+                </span>
+                <span class="next">
+                    <img src="img/icons/str_right_blue.svg" alt="">
+                </span>
+            </div>
+        </section>
+
+
+
+        <section id="choose_apartment" class="bg_grey">
+            <div class="container">
+                <div class="top mb-xs">
+                    <div class="row">
+                        <div class="col-md-5 col-md-offset-1">
+                            <h2 class="section_title color_theme">Подбери квартиру для себя</h2>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="buttons">
+                                <div class="rooms">
+                                    <p>Количество комнат:</p>
+                                    <div class="btns">
+                                        <a href="1" class="active">1</a>
+                                        <a href="2">2</a>
+                                        <a href="3">3</a>
+                                        <a href="4">4</a>
+                                    </div>
+                                </div>
+                                <div class="type">
+                                    <p>Планировка тип:</p>
+                                    <div class="type_btn1 active">
+                                        <div class="btns">
+                                            <a href="1" class="active">1</a>
+                                            <a href="2">2</a>
+                                            <a href="3">3</a>
+                                            <a href="4">4</a>
+                                            <a href="5">5</a>
+                                        </div>
+                                    </div>
+                                    <div class="type_btn2">
+                                        <div class="btns">
+                                            <a href="1" class="active">1</a>
+                                            <a href="2">2</a>
+                                            <a href="3">3</a>
+                                            <a href="4">4</a>
+                                            <a href="5">5</a>
+                                            <a href="6">6</a>
+                                        </div>
+                                    </div>
+                                    <div class="type_btn3">
+                                        <div class="btns">
+                                            <a href="1" class="active">1</a>
+                                            <a href="2">2</a>
+                                            <a href="3">3</a>
+                                            <a href="4">4</a>
+                                        </div>
+                                    </div>
+                                    <div class="type_btn4">
+                                        <div class="btns">
+                                            <a href="1" class="active">1</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content bg_theme pt-sm pb-sm">
+                <div class="img_loader_wrapper">
+                    <span class="img_loader">
+                        <span class="img_loader-inner"></span>
+                    </span>
+                </div>
+                <div class="hide area_text_info">
+                    <span class="area_11">46.9</span>
+                    <span class="area_12">42.7</span>
+                    <span class="area_13">46.9</span>
+                    <span class="area_14">42.7</span>
+                    <span class="area_15">42.4</span>
+                    <span class="area_21">64.6</span>
+                    <span class="area_22">80.5</span>
+                    <span class="area_23">83.0</span>
+                    <span class="area_24">80.5</span>
+                    <span class="area_25">64.6</span>
+                    <span class="area_26">83.0</span>
+                    <span class="area_31">74.1</span>
+                    <span class="area_32">76.9</span>
+                    <span class="area_33">105.3</span>
+                    <span class="area_34">88</span>
+                    <span class="area_41">130.4</span>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <div class="img_view text_center">
+                                <p>Вид:</p>
+                                <a href="#scheme" class="btn">Схема</a>
+                                <a href="#virtual" class="btn active">3D</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="apartment_img">
+                                <img src="img/apartments/1/1.png" alt="" id="scheme">
+                                <img src="img/apartments/1/1-0.png" alt="" id="virtual" class="active">
+                            </div>
+                        </div>
+                        <div class="col-md-5 col-md-offset-1">
+                            <div class="apartment_info">
+                                <h2 class="section_title color_white"><span>1</span> комнатная</h2>
+                                <div class="row">
+                                    <div class="col-xs-7 color_white">
+                                        <p>Общая площадь:</p>
+                                        <h3 class="area_info"><span>46.9</span> m<sup>2</sup></h3>
+                                        <p>Этажность:</p>
+                                        <h3>2-8</h3>
+                                        <a href="#default" class="popup-trigger btn_white mt-sm">Забронировать</a>
+                                    </div>
+                                    <div class="col-xs-5">
+                                        <img src="img/apartments/1/1-00.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="characteristics" class="pt-md pb-xs color_theme">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        <h2 class="section_title">Характеристики</h2>
+                    </div>
+                </div>
+                <div class="line">
+                    <div class="article">
+                        <div class="img">
+                            <img src="img/icons/characteristic1.svg" alt="">
+                        </div>
+                        <p>Большой лифт</p>
+                    </div>
+                    <div class="article">
+                        <div class="img">
+                            <img src="img/icons/characteristic2.svg" alt="">
+                        </div>
+                        <p>Кирпичный дом</p>
+                    </div>
+                    <div class="article">
+                        <div class="img">
+                            <img src="img/icons/characteristic3.svg" alt="">
+                        </div>
+                        <p>Свободная планировка</p>
+                    </div>
+                    <div class="article">
+                        <div class="img">
+                            <img src="img/icons/characteristic4.svg" alt="">
+                        </div>
+                        <p>Бесшумные окна</p>
+                    </div>
+                    <div class="article">
+                        <div class="img">
+                            <img src="img/icons/characteristic5.svg" alt="">
+                        </div>
+                        <p>Видеонаблюдение</p>
+                    </div>
+                    <div class="article">
+                        <div class="img">
+                            <img src="img/icons/characteristic6.svg" alt="">
+                        </div>
+                        <p>Потолок 3.2</p>
+                    </div>
+                    <div class="article">
+                        <div class="img">
+                            <img src="img/icons/characteristic7.svg" alt="">
+                        </div>
+                        <p>Домофон</p>
+                    </div>
+                    <div class="article">
+                        <div class="img">
+                            <img src="img/icons/characteristic8.svg" alt="">
+                        </div>
+                        <p>Двухконтурный котел</p>
+                    </div>
+                    <div class="article">
+                        <div class="img">
+                            <img src="img/icons/characteristic9.svg" alt="">
+                        </div>
+                        <p>Детская площадка</p>
+                    </div>
+                    <div class="article">
+                        <div class="img">
+                            <img src="img/icons/characteristic10.svg" alt="">
+                        </div>
+                        <p>Парковка</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="section_seven" class="text_slider bg_grey pt-md">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <div class="info pb-md">
+                                    <h2 class="section_title color_white">Варианты покупки</h2>
+                                    <div class="bottom">
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <div class="arrows">
+                                                    <span class="prev">
+                                                        <img src="img/icons/str_left_white.svg" alt="">
+                                                    </span>
+                                                    <span class="next">
+                                                        <img src="img/icons/str_right_white.svg" alt="">
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <div class="slider_count color_white">
+                                                    <span class="active">01</span>
+                                                    <span class="all">&nbsp;/&nbsp;<font>02</font></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-md-offset-1">
+                                <div class="slider text_center pt-xs">
+                                    <div class="item">
+                                        <h3>Рассрочка</h3>
+                                        <p>Рассрочка 24 месяцев - предоплата 30% </p>
+                                    </div>
+                                    <div class="item">
+                                        <h3>Ипотека</h3>
+                                        <p>Ипотека на 15 лет</p>
+                                    </div>
+                                    <div class="item">
+                                        <h3>100% оплата</h3>
+                                        <p>100% оплата -скидка 20% - экономия 37 млн сум</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="building_info" class="bg_grey pt-lg pb-md">
+            <div class="container relative">
+                <div class="row">
+                    <div class="col-md-11 col-md-offset-1">
+                        <h2 class="section_title color_theme">Инфраструктура Комплекса</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-5 col-md-offset-1">
+                        <div class="info">
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <div class="info_item">
+                                        <h3>900м</h3>
+                                        <p>До ТЦ Atlas</p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6">
+                                    <div class="info_item">
+                                        <h3>800м</h3>
+                                        <p>До ТЦ Ecobozor</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <div class="info_item">
+                                        <h3>1,8км</h3>
+                                        <p>До парка Локомотив</p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6">
+                                    <div class="info_item">
+                                        <h3>5 мин</h3>
+                                        <p>До Мечети</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <div class="info_item">
+                                        <h3>500м</h3>
+                                        <p>До кафе <br>Xonatlas</p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6">
+                                    <div class="info_item">
+                                        <h3>1 мин</h3>
+                                        <p>До частного садика</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <div class="info_item">
+                                        <h3>700м</h3>
+                                        <p>До больницы</p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6">
+                                    <div class="info_item">
+                                        <h3>5 мин</h3>
+                                        <p>До школы</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="img/buiulding_info.png" alt="">
+            </div>
+        </section>
+
+
+
+        <section id="collback" class="bg_theme pt-sm pb-sm">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-11 col-md-offset-1">
+                        <h2 class="section_title color_white">Не можете подобрать квартиру?</h2>
+                        <p>Мы вам поможем! Оставьте заявку и наши специалисты позвонят вам и ответят на все ваши вопросы</p>
+                        <a href="#default" class="popup-trigger btn_white">Оставить заявку</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="contacts">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 col-md-offset-7">
+                        <div class="info">
+                            <h2 class="section_title color_theme text_center">Офис продаж</h2>
+                            <div>
+                                <img src="img/icons/location.svg" alt="">
+                                <p>г.Ташкент, Мирзо-Улугбекский район, <br>улица Темура Малика</p>
+                            </div>
+                            <div>
+                                <img src="img/icons/phone.svg" alt="">
+                                <p>
+                                    <a href="#">+998 (71) 200 27 22</a>
+                                    <span>График работы: 9:00 -21:00 (Пн-Вс)</span>
+                                </p>
+                            </div>
+                            <div class="social">
+                                <a href="#"><img src="img/icons/facebook.svg" alt=""></a>
+                                <a href="#"><img src="img/icons/instagram.svg" alt=""></a>
+                                <a href="#"><img src="img/icons/telegram.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+        </section>
+
+
+
+        <footer id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        <p class="copy">Copyright © 2020 Building LUXURY house. All Rights Reserved.</p>
+                        <p class="comp">Сайт создан: <a href="https://oe.uz" target="_blnak">Open Engine</a></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+
+
+
+    <div id="default" class="popup">
+        <div class="popup-container">
+            <!--  add class active -->
+            <a href="javascript:void(0)" class="popup-close img-replace">Close</a>
+            <h2 class="section_title color_theme text_center">Оставить заявку</h2>
+            <div class="form">
+                <p class="success_text">спасибо ваша заявка принята</p>
+                <div class="input_content">
+                    <input type="text" class="name" placeholder="">
+                    <span>Ваше имя</span>
+                </div>
+                <div class="input_content">
+                    <input type="text" class="phone" placeholder="">
+                    <span>Номер телефона</span>
+                </div>
+                <button type="submit">Отправить</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/aos.js"></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css' rel='stylesheet' />
+    <script src='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
+    <script src="js/main.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+</body>
+
+</html>
